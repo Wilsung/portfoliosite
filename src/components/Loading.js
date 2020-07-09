@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 
 const styles = {
   content: {
+    color: 'white',
     fontSize: '35px',
     position: 'absolute',
     left: '0',
