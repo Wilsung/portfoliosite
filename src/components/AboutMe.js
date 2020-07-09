@@ -52,7 +52,8 @@ export default class AboutMe extends React.Component {
                             <li><i className="fa fa-angle-right"></i> NodeJS</li>
                             <li><i className="fa fa-angle-right"></i> Photoshop</li>
                             <li><i className="fa fa-angle-right"></i> Webpack</li>
-                            <li><i className="fa fa-angle-right"></i> Agile workflows</li>
+                            <li><i className="fa fa-angle-right"></i> Agile Workflow</li>
+                            <li><i className="fa fa-angle-right"></i> VS Code</li>
                         </ul>
                     </div>
                 </div>

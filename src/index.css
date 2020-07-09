@@ -46,15 +46,19 @@ a {
 }
 .logo {
   font-family: 'Amatic SC', "Anton";
+  color: white;
   font-size: 20px;
   padding: 7.5px 10px 7px 0;
+}
+.logo:hover{
+  color: #bbb;
 }
 .item {
   padding: 10px;
 }
 .item:not(.button) a:hover,
 .item a:hover::after {
-  color: #ccc;
+  color: #bbb;
 }
 /* Mobile menu */
 .menu {
@@ -73,7 +77,7 @@ a {
 }
 
 .menu a i:hover{
-  color: #ccc;
+  color: #bbb;
 }
 
 .menu li {
@@ -399,4 +403,8 @@ a {
   color: white;
   font-size: 3em;
   padding: 8px;
+}
+
+.social-links i:hover {
+  color: #bbb
 }

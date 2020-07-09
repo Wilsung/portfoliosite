@@ -19,7 +19,7 @@ export default function NavBar(){
                     <li className="logo"><NavLink exact to="/"><i className="fa fa-snowflake-o"></i> {`WU`}</NavLink></li>
                     <li className="item"><NavLink activeStyle={activeStyle} onClick={toggleMenu} to="/AboutMe">About</NavLink></li>
                     <li className="item"><NavLink activeStyle={activeStyle} onClick={toggleMenu} to="/Projects">Projects</NavLink></li>
-                    <li className="item"><a href="mailto: contactwilsonung-wilsung@yahoo.com"><i className="fa fa-envelope-open-o"></i></a></li>
+                    <li className="item"><a href="mailto: ungwilson94@gmail.com"><i className="fa fa-envelope-open-o"></i></a></li>
                     {toggle === 'active' 
                       ? <button 
                           className={`toggle btn-clear`} 
